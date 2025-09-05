@@ -31,7 +31,7 @@ h6 {
     padding-bottom: 20px;
     position: sticky;
     top: 0;
-
+    z-index: 1000;
 }
 
 .navigation__list {
@@ -134,11 +134,21 @@ h6 {
     padding: 0;
 }
 
+.work{
+    padding-bottom: 100px;
+}
+
+.video-button {
+    position: relative;       
+    width: 1110px;         
+    height: 500px;    
+    margin: auto;   
+}
+
 .work-rectangle {
     width: 100%;
     object-fit: cover;         
     display: block;
-    padding-bottom: 100px;
 }
 
 .work-button {
@@ -159,12 +169,6 @@ h6 {
     text-align: center;
 }
 
-.video-button {
-    position: relative;       
-    width: 1110px;         
-    height: 500;    
-    margin: auto;   
-}
 
 .footer {
     width: 100% ;
@@ -177,11 +181,9 @@ h6 {
     font-size: 21px;
     color: var(--color-white);
     padding-top: 50px;
-    margin-left: 406px; 
 }
 
 .footer-text {
     font-style: 13px;
     color: var(--color-white);
-    margin-left: 406px; 
 }
